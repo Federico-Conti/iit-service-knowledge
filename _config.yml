@@ -1,0 +1,12 @@
+title: Service Knowledge Hub
+description: Catalogo operativo dei servizi gestiti in IIT
+baseurl: "/iit-service-knowledge"
+url: "https://Federico-Conti.github.io"
+
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
