@@ -2,13 +2,22 @@
 layout: default
 ---
 
+{% assign section_meta = nil %}
+{% if page.section %}
+  {% assign section_meta = site.data.sections[page.section] %}
+{% endif %}
+{% assign page_description = page.description %}
+{% if section_meta.description %}
+  {% assign page_description = section_meta.description %}
+{% endif %}
+
 <section class="hero small-hero">
-  <a class="back-link" href="{{ '/' | relative_url }}">&larr; Torna alla homepage</a>
-  <div class="eyebrow">Service Knowledge Hub</div>
+  <a class="back-link" href="{{ '/' | relative_url }}">&larr; </a>
+
   <h1>{{ page.title }}</h1>
 
-  {% if page.description %}
-    <p class="subtitle">{{ page.description }}</p>
+  {% if page_description %}
+    <p class="subtitle">{{ page_description }}</p>
   {% endif %}
 </section>
 

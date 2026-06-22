@@ -1,0 +1,11 @@
+.git
+.codex
+.agents
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.bundle
+vendor/bundle
+*.log
+.DS_Store

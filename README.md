@@ -2,6 +2,48 @@
 
 Sì, è possibile. Puoi lavorare in **VS Code**, modificare i file Markdown/CSS/HTML e vedere il sito in locale prima di fare push su GitHub.
 
+## Avvio con Docker, senza installare Ruby sul Mac
+
+Se non vuoi installare Ruby, Bundler o Jekyll sul Mac, usa Docker:
+
+```bash
+docker compose up --build
+```
+
+Poi apri:
+
+```text
+http://localhost:4000
+```
+
+Se Docker segnala che la porta `4000` o `35729` è già occupata, avvia il sito su
+porte alternative:
+
+```bash
+SITE_PORT=4001 JEKYLL_PORT=4001 LIVERELOAD_PORT=35730 docker compose up --build
+```
+
+Poi apri:
+
+```text
+http://localhost:4001
+```
+
+In locale non usare `http://localhost:4000/iit-service-knowledge/`: quel `baseurl`
+serve solo per GitHub Pages. La configurazione Docker carica anche
+`_config_dev.yml`, che azzera il `baseurl`, abilita LiveReload e forza il browser
+a ricaricare il CSS dopo ogni rigenerazione.
+
+Il progetto viene montato nel container come volume, quindi le modifiche fatte da VS Code ai file Markdown, CSS e HTML vengono viste da Jekyll mentre il container è acceso. Il comando usa anche `--livereload` e `--force_polling`, utili su macOS perché gli eventi filesystem dei volumi Docker non sono sempre immediati.
+
+Per fermare il sito:
+
+```bash
+docker compose down
+```
+
+Le dipendenze Ruby restano in un volume Docker chiamato `bundle_cache`, quindi non vengono installate nel repository né sul Mac.
+
 GitHub consiglia proprio di testare localmente con Jekyll; segnala anche che il sito locale può differire da quello pubblicato se la gem `github-pages` locale non è aggiornata, quindi conviene usare Bundler e la gem `github-pages`. ([GitHub Docs][1])
 
 ## 1. Prerequisiti
@@ -138,7 +180,7 @@ Il tuo flusso diventa:
 
 ```text id="edc5jm"
 1. Apri VS Code
-2. Modifichi index.md, agents/index.md, style.css, ecc.
+2. Modifichi index.md, agents/index.md, assets/css/site.css, ecc.
 3. Nel terminale lanci bundle exec jekyll serve --baseurl ""
 4. Apri http://localhost:4000
 5. Controlli la preview
@@ -180,7 +222,7 @@ Non usare l'estensione "Live Server" di VS Code per questo progetto Jekyll. Live
 
 ```liquid id="tjog6e"
 {{ content }}
-{{ '/assets/css/style.css' | relative_url }}
+{{ '/assets/css/site.css' | relative_url }}
 {% if page.description %}
 ```
 

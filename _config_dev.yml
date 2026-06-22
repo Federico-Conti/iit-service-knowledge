@@ -1,0 +1,15 @@
+baseurl: ""
+livereload: true
+exclude:
+  - .agents
+  - .bundle
+  - .codex
+  - .dockerignore
+  - .git
+  - .github
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .sass-cache
+  - Dockerfile
+  - docker-compose.yml
+  - vendor
