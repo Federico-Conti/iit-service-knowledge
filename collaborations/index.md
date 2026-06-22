@@ -1,29 +1,24 @@
 ---
 layout: page
 title: "Collaborations"
-description: "Collaborazioni e iniziative cross-team seguite nel contesto IIT."
+section: collaborations
 permalink: /collaborations/
 ---
 
-## Collaborazioni
 
-Questa sezione raccoglie le collaborazioni interne ed esterne collegate ai servizi e alle iniziative AI gestite in IIT.
+| Collaborazione | Stakeholder | Contributo | Stato | Link |
+|---|---|---|---|---|
+| PoC Camera dei deputati | [PAVIS](https://pavis.iit.it/) | Supporto tecnico per proposta su AI generativa | Concluso / proposta | [Apri](#poc-camera-dei-deputati) |
+| PAVIS Storytelling multimodale | [HSP](https://hsp.iit.it/) | Pipeline multi-agent per generazione narrativa e illustrata | In sprint / PoC | [Apri](./hsp-storytelling/) |
 
-| Collaborazione | Stakeholder | Contributo | Stato |
-|---|---|---|---|
-| Da compilare | Da compilare | Da compilare | Da compilare |
 
-## Cosa documentare
 
-- Contesto
-- Stakeholder coinvolti
-- Obiettivo condiviso
-- Ruolo e responsabilita
-- Contributi prodotti
-- Decisioni prese
-- Risultati
-- Prossimi passi
+# PoC Camera dei deputati 
 
-## Note operative
+Collaborazione con la linea di ricerca PAVIS dell'Istituto Italiano di
+Tecnologia per la redazione di un Proof of Concept finalizzato alla
+partecipazione alla Manifestazione d'Interesse per l'utilizzo dell'intelligenza
+artificiale generativa presso la Camera dei deputati.
 
-Non inserire in questa pagina informazioni riservate, credenziali, contatti personali o dettagli contrattuali non pubblicabili.
+
+
