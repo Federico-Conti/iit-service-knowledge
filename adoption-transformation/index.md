@@ -4,95 +4,97 @@ title: "Adoption & Transformation"
 section: adoption-transformation
 permalink: /adoption-transformation/
 ---
-Il lavoro si concentra su tre obiettivi principali:
 
-* aumentare la **AI literacy** attraverso esempi concreti e scenari vicini al lavoro quotidiano;
-* definire criteri di **governance, sicurezza e accesso** per l'uso di strumenti AI, con particolare attenzione agli ambienti Microsoft;
-* ottimizzare processi operativi tramite **LLM, agenti, chatbot e automazioni** applicati a bisogni reali dell'organizzazione.
+## Indice dei capitoli
+
+| Capitolo | Descrizione |  |
+|---|---|---|
+| Competence Center 4AI | Iniziativa strategica di AI adoption articolata nei Working Group Focus Group e Control Tower. | [Approfondisci](#competence-center-4ai) |
+| Community AI Playground | Community interna dedicata alla condivisione di conoscenze, esperienze e casi d'uso sull'AI. | [Approfondisci](#community-ai-playground) |
+| Formazione interna | Attività formative pratiche per un utilizzo efficace, consapevole e responsabile dell'AI generativa. | [Approfondisci](#formazione-interna) |
 
 ## Competence Center 4AI
 
-Ho lanciato e coordinato il **Competence Center 4AI** come iniziativa di change management e AI adoption per favorire l'uso maturo dell'intelligenza artificiale all'interno dell'organizzazione.
+Il **Competence Center 4AI** è un'iniziativa strategica di change management e AI adoption, avviata per promuovere un'adozione consapevole, strutturata e responsabile dell'Intelligenza Artificiale in IIT.
 
-La visione del Competence Center è promuovere l'adozione consapevole e strategica dell'AI in IIT, partendo da persone, unità e direzioni già coinvolte in collaborazioni digitali o interessate a sperimentare nuovi strumenti generativi. Questo approccio ha permesso di lavorare su scenari concreti, misurabili e collegati a processi esistenti, generando prime evidenze di valore e impatto.
+Ho contribuito al lancio e al coordinamento dell'iniziativa, coinvolgendo inizialmente unità e direzioni già attive in collaborazioni digitali o interessate a sperimentare strumenti di AI generativa. Questo approccio ha permesso di partire da esigenze concrete, valutare scenari applicativi misurabili e raccogliere prime evidenze sul valore prodotto per le attività di ricerca e per i processi amministrativi.
 
-Il Competence Center è strutturato in gruppi di lavoro tematici, orientati sia alla ricerca sia all'area amministrativa e operativa.
+Il Competence Center è organizzato in due Working Group complementari:
 
-| Area | Obiettivo | Attività principali |
-|---|---|---|
-| AI literacy | Rendere più comprensibili strumenti, limiti e opportunità dell'AI generativa | Presentazione di casi d'uso reali, confronto su Copilot, ChatGPT, Azure OpenAI e strumenti approvati |
-| Research enablement | Supportare gruppi di ricerca nell'uso di LLM e API AI | Use case su bibliographic search, coding task, problem solving, multistep reasoning, image captioning e integrazione con robotica |
-| Administrative optimization | Ridurre attività ripetitive e migliorare qualità dei dati | Email Agent, Invoice Agent, chatbot su contenuti aziendali e automazioni documentali |
-| Governance e sicurezza | Definire regole di adozione sicura | Studio di licensing, costi, criteri di accesso, profilazione utenti, policy e linee guida |
-| Process transformation | Trasformare esigenze operative in pattern riusabili | Analisi di processi candidati, definizione di workflow AI-enabled, valutazione di benefici e sostenibilità |
+### Focus Group
 
-### Gruppi di lavoro tematici
+Il **Focus Group** è dedicato all'individuazione, analisi e sperimentazione di casi d'uso dell'AI generativa negli ambiti della ricerca e dei processi amministrativi e operativi.
 
-Il Competence Center ha lavorato per gruppi tematici con un metodo pragmatico: partire da casi d'uso reali, valutarne impatto e rischi, quindi tradurli in pattern riusabili per altri processi.
+Il gruppo lavora a partire da bisogni reali dell'organizzazione, con l'obiettivo di comprendere dove strumenti come LLM, agenti e chatbot possano generare valore, ridurre attività ripetitive o supportare attività ad alta intensità informativa.
 
-#### Ricerca
+Nell'ambito della ricerca, il lavoro ha incluso:
 
-Nell'area ricerca, il lavoro ha riguardato l'abilitazione all'uso di strumenti AI e API LLM per attività come:
-
-* ricerca bibliografica e sintesi di letteratura;
-* supporto a coding task e debugging;
-* problem solving e ragionamento multi-step;
+* sperimentazione di Azure OpenAI API, ChatGPT e Microsoft Copilot;
+* ricerca bibliografica e sintesi della letteratura;
+* supporto a coding task, debugging e problem solving;
+* sperimentazione di attività di ragionamento multi-step;
 * generazione, captioning e interpretazione di immagini;
-* sperimentazione di interazioni multimodali e conversazionali in contesti di robotica.
+* integrazione di interazioni conversazionali e multimodali in contesti di robotica.
 
-L'obiettivo non era solo fornire accesso a strumenti come Azure OpenAI API, ChatGPT o Copilot, ma aiutare i gruppi a capire quando usarli, con quali dati, con quali limiti e con quale livello di controllo umano (human in the loop).
+Nell'ambito amministrativo e operativo, il lavoro ha incluso:
 
-#### Area amministrativa e operativa
+* analisi di processi candidati all'automazione;
+* sviluppo e sperimentazione di agenti per email e documenti;
+* estrazione e normalizzazione di dati da fatture;
+* chatbot per l'accesso a contenuti aziendali distribuiti;
+* integrazione con contenuti e permessi provenienti da Microsoft SharePoint e Teams;
+* valutazione dei benefici operativi e della riusabilità delle soluzioni.
 
-Nell'area amministrativa, il Competence Center ha valorizzato casi d'uso orientati alla produttività e alla riduzione del lavoro ripetitivo, tra cui:
+### Control Tower
 
-* **Allegati A Agent**, per ridurre il carico di allegati da analizzare e approvare.
-* **Energy Invoice Agent**, per automatizzare l'estrazione e normalizzazione di dati da fatture e documenti complessi;
-* **Copilot e chatbot interni**, per facilitare l'accesso a contenuti aziendali distribuiti e migliorare la profilazione delle risposte in base ai permessi e al contesto.
+La **Control Tower** è il Working Group dedicato alla governance e alla sicurezza nell'adozione degli strumenti di Intelligenza Artificiale.
 
-Questi casi d'uso sono stati trattati come esempi di trasformazione di processo: non semplici demo AI, ma prototipi e servizi orientati a ridurre tempi manuali, aumentare consistenza dei dati e rendere più scalabile il supporto agli utenti.
-
-## Governance e sicurezza AI
-
-Una parte centrale dell'iniziativa è stata la definizione di flussi di governance e sicurezza per l'uso degli strumenti AI in IIT, con focus sugli ambienti Microsoft, tra cui Copilot, Azure e Microsoft 365.
+Il suo obiettivo è definire condizioni, criteri e modalità di utilizzo coerenti con le esigenze organizzative e con le policy ICT, con particolare attenzione agli ambienti Microsoft, tra cui Azure, Copilot e Microsoft 365.
 
 Il lavoro ha incluso:
 
-* analisi di modelli di licensing e costi;
-* definizione di strategie di adozione per gruppi di utenti diversi;
-* criteri di profilazione, accesso e abilitazione;
-* linee guida sull'uso appropriato degli strumenti AI;
-* attenzione a classificazione dei dati, sicurezza, controllo degli accessi e responsabilità nell'uso degli output generati.
+* analisi dei modelli di licensing e dei relativi costi;
+* definizione di strategie di adozione per differenti gruppi di utenti;
+* valutazione dei criteri di accesso, profilazione e abilitazione;
+* approfondimento delle modalità di protezione e classificazione dei dati;
+* definizione di linee guida e criteri per l'utilizzo appropriato degli strumenti AI;
+* attenzione alla responsabilità degli utenti e alla verifica degli output generati.
 
-Questa attività ha contribuito a collegare l'adozione dell'AI alla gestione del rischio, evitando un approccio puramente sperimentale e favorendo un modello sostenibile, controllato e coerente con le policy ICT.
+La Control Tower ha permesso di collegare la sperimentazione del Focus Group alla gestione del rischio, favorendo un modello di adozione controllato, sostenibile e coerente con le policy ICT.
+
+Nel complesso, il Competence Center 4AI ha creato un punto di raccordo tra sperimentazione, casi d'uso, governance e trasformazione dei processi, contribuendo a rafforzare la capacità di IIT di utilizzare l'AI in modo efficace e responsabile.
 
 ## Community AI Playground
 
-Ho avviato anche la creazione di una community interna, **AI Playground**, come spazio dedicato alla condivisione, sperimentazione e raccolta di idee sull'intelligenza artificiale.
+**AI Playground** è una community interna dedicata alla condivisione di conoscenze, esperienze e idee sull'utilizzo dell'Intelligenza Artificiale.
 
-La community nasce per attivare un confronto trasversale tra utenti, gruppi di ricerca, direzioni e funzioni operative, con l'obiettivo di rendere più diffusa la capacità di usare bene gli strumenti AI.
+Ho contribuito alla progettazione della community come iniziativa distinta dal Competence Center, con l'obiettivo di creare uno spazio trasversale nel quale ricercatori, utenti e funzioni organizzative possano confrontarsi sugli strumenti disponibili, proporre nuovi casi d'uso e condividere buone pratiche.
 
-Le attività previste includono:
+Il lavoro ha incluso:
 
-* disseminazione di informazioni e conoscenza sugli strumenti AI disponibili;
-* condivisione di idee, proposte, bisogni specifici e casi d'uso emergenti;
-* presentazione di soluzioni AI abilitate da ICT, con esempi pratici e applicazioni innovative su processi interni;
-* creazione di un canale dedicato per favorire interazione, contaminazione e riuso delle esperienze;
-* preparazione del lancio della community su piattaforma Microsoft Viva Engage.
+* disseminazione di informazioni sugli strumenti AI disponibili;
+* raccolta di idee, proposte e bisogni provenienti dagli utenti;
+* condivisione di casi d'uso ed esperienze operative;
+* presentazione di soluzioni AI sviluppate o abilitate da ICT;
+* creazione di un canale dedicato alla collaborazione interna;
+* preparazione del lancio della community su Microsoft Viva Engage.
 
-La community è stata pensata come complemento al Competence Center: il Competence Center struttura metodo, governance e priorità; la community abilita partecipazione, circolazione delle esperienze e scoperta di nuovi bisogni.
+La community completa le attività del Competence Center favorendo partecipazione, circolazione delle conoscenze e individuazione di nuovi bisogni, senza sovrapporsi ai suoi Working Group o ai processi di governance.
 
 ## Formazione interna
 
-Accanto al Competence Center e alla community, ho progettato e tenuto attività di formazione interna sull'uso dell'intelligenza artificiale generativa in azienda.
+La **formazione interna** raccoglie le attività progettate e realizzate per sviluppare competenze pratiche sull'uso dell'Intelligenza Artificiale generativa nei contesti lavorativi e di ricerca.
 
-La formazione ha avuto un taglio pratico e orientato all'adozione responsabile, con focus su:
+Ho contribuito alla progettazione e all'erogazione di eventi, seminari e sessioni dimostrative, adottando un approccio pratico e orientato all'utilizzo responsabile degli strumenti.
 
-* introduzione a LLM, chatbot, coding agents;
-* differenze tra strumenti general purpose, Copilot, ChatGPT, Codex, API Azure OpenAI e agenti custom;
-* criteri per scegliere lo strumento corretto in base al tipo di attività e al livello di rischio dei dati;
-* prompt design per scrittura, sintesi, analisi, trasformazione di contenuti e supporto operativo;
-* esempi di uso dell'AI in ricerca, amministrazione, comunicazione, supporto utenti e automazione di processo;
-* limiti, errori possibili, controllo umano e buone pratiche di verifica degli output.
+Il lavoro ha incluso:
 
-L'obiettivo della formazione non era solo trasferire competenze tecniche, ma creare fiducia, consapevolezza e capacità critica: aiutare le persone a capire dove l'AI può generare valore, dove serve cautela e come integrare questi strumenti nel lavoro quotidiano senza perdere controllo, qualità e responsabilità.
+* introduzione a LLM, chatbot, coding agent e agenti custom;
+* confronto tra ChatGPT, Microsoft Copilot, Codex e Azure OpenAI;
+* criteri per scegliere lo strumento più adatto in base all'attività;
+* tecniche di prompt design per scrittura, sintesi e analisi;
+* dimostrazioni applicate a ricerca, amministrazione e supporto operativo;
+* approfondimento di limiti, errori e rischi degli output generati;
+* promozione di pratiche di verifica e controllo umano.
+
+L'obiettivo non è stato soltanto trasferire competenze tecniche, ma sviluppare consapevolezza e capacità critica, aiutando le persone a comprendere dove l'AI può produrre valore, quando è necessaria cautela e come integrarla nei workflow quotidiani mantenendo controllo, qualità e responsabilità.

@@ -397,6 +397,33 @@ code {
   font-size: 15px;
 }
 
+.content-card > h2:first-child {
+  margin-top: 0;
+}
+
+.content-card > h2:first-child + table {
+  margin-top: 12px;
+}
+
+.content-card > h2:first-child + table th {
+  background: linear-gradient(135deg, rgba(10, 158, 232, 0.20), rgba(40, 110, 232, 0.13));
+}
+
+.content-card > h2:first-child + table td:last-child {
+  width: 132px;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.content-card > h2:first-child + table a {
+  text-decoration: none;
+}
+
+.content-card > h2:first-child + table a:hover,
+.content-card > h2:first-child + table a:focus-visible {
+  text-decoration: underline;
+}
+
 .content-card th,
 .content-card td {
   border: 1px solid var(--line);

@@ -5,13 +5,13 @@ section: agents
 permalink: /agents/
 ---
 
-## Servizi
+## Indice dei capitoli
 
-| Servizio | Descrizione | Link |
+| Capitolo | Descrizione |  |
 |---|---|---|
-| ChatICT | Generative answer chatbot sulla Knowledge Base ICT | [Apri](#chatict) |
-| Energy Invoice Agent | Agente per OCR, estrazione e normalizzazione dati da bollette energetiche | [Apri](#energy-invoice-agent) |
-| Allegati A Agent | Agente per estrazione, monitoraggio e supporto decisionale nelle approvazioni ICT | [Apri](#allegati-a-agent) |
+| ChatICT | Chatbot RAG per consultare in linguaggio naturale la knowledge base dei servizi ICT. | [Approfondisci](#chatict) |
+| Energy Invoice Agent | Automazione per estrarre, normalizzare e monitorare i dati delle bollette energetiche. | [Approfondisci](#energy-invoice-agent) |
+| Allegati A Agent | Supporto alla gestione, al controllo e al monitoraggio delle richieste di approvazione ICT. | [Approfondisci](#allegati-a-agent) |
 
 ## ChatICT
 

@@ -7,17 +7,20 @@ description: "Portfolio dei servizi gestiti in IIT."
 <section class="hero portfolio-hero">
   <div class="hero-header">
     <img class="iit-logo" src="{{ '/images/iit_logo.png' | relative_url }}" alt="Logo Istituto Italiano di Tecnologia">
-    <h1>Istituto italiano di tecnologia</h1>
+    <div>
+      <p class="role-line">AI Engineer</p>
+      <h1>Portfolio</h1>
+    </div>
   </div>
 
   <p class="subtitle">
-    Portfolio delle attivita AI seguite in IIT dal 01/01/2024
+    L'<a href="https://www.iit.it/it/" style="color: #0056b3; text-decoration: underline; font-weight: 400;">Istituto Italiano di Tecnologia</a> riunisce l’eccellenza della ricerca scientifica e tecnologica con le funzioni amministrative e operative che ne rendono possibile il lavoro quotidiano. Nell’Ufficio Gestione Applicazioni della Direzione ICT opero come figura tecnico-scientifica di raccordo: parto dai bisogni di ricercatori, unità e direzioni, li traduco in requisiti tecnici e collaboro alla progettazione, prototipazione e messa in esercizio di soluzioni AI concrete. Accompagno quindi l’intero percorso — da LLM, agenti e workflow AI fino a piattaforme, dati, sicurezza, deployment e monitoraggio — con l’obiettivo di creare servizi affidabili, mantenibili e riusabili in tutto IIT.
   </p>
 </section>
 
 <section>
   <div class="section-title">
-    <h2>Portfolio</h2>
+    <h2>Attività</h2>
   </div>
 
   <div class="service-list">
