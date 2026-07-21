@@ -24,7 +24,7 @@ Il lavoro ha incluso:
 * conversione di contenuti audio/video in rappresentazioni testuali tramite componenti speech-to-text e modelli vision-language;
 * indicizzazione dei contenuti in database vettoriale per scenari di Retrieval-Augmented Generation;
 
-![Camera dei deputati](../images/pavis-collab.png)
+<img src="../images/pavis-collab.png" alt="Camera dei deputati" style="display: block; width: min(100%, 800px); height: auto; margin: 0 auto; ">
 
 ## iCub Storytelling
 
@@ -32,25 +32,25 @@ La collaborazione tra ICT e [HSP](https://hsp.iit.it/) è nata nel marzo 2026 co
 
 Il progetto si è sviluppato lungo due linee complementari:
 
-* **Storytelling multimodale**, dedicato alla generazione automatica di storie illustrate a partire da sticker, prompt narrativi e input visivi;
-* **Auto Sketch**, orientato alla trasformazione dei disegni realizzati manualmente dall’utente in scene arricchite e narrative, con possibili applicazioni in percorsi di riabilitazione manuale e cognitiva.
+* Storytelling multimodale, dedicato alla generazione automatica di storie illustrate a partire da sticker, prompt narrativi e input visivi;
+* Auto Sketch, orientato alla trasformazione dei disegni realizzati manualmente dall’utente in scene arricchite e narrative, con possibili applicazioni in percorsi di riabilitazione manuale e cognitiva.
 
 Il mio contributo ha riguardato la progettazione e la validazione di una prima architettura multi-agente per la generazione di storie multimodali. Ogni modulo della pipeline era responsabile di una fase specifica del processo generativo: interpretazione degli input visivi, costruzione del contesto narrativo, generazione testuale e produzione delle illustrazioni.
 
-Per coordinare l’interazione tra i moduli è stato adottato il design pattern **Prompt Chaining**: l’output di ciascun agente diventa l’input di quello successivo. Questo approccio ha permesso di orchestrare la generazione passo dopo passo e di preservare la coerenza semantica, la continuità narrativa e lo stile visivo dell’intera storia.
+Per coordinare l’interazione tra i moduli è stato adottato il design pattern Prompt Chaining: l’output di ciascun agente diventa l’input di quello successivo. Questo approccio ha permesso di orchestrare la generazione passo dopo passo e di preservare la coerenza semantica, la continuità narrativa e lo stile visivo dell’intera storia.
 
 La pipeline è stata successivamente integrata nell’infrastruttura software di iCub, basata su YARP, per realizzare il setup sperimentale impiegato nella campagna di test con soggetti volontari condotta tra giugno e luglio 2026.
 
 <section class="media-carousel" aria-label="Materiali della collaborazione ICT–HSP">
   <div class="media-carousel__track">
-    <figure class="media-carousel__slide" id="hsp-media-1">
-      <img src="{{ '/images/hsp-collab1.jpeg' | relative_url }}" alt="Sessione di storytelling collaborativo con iCub" loading="lazy">
+    <figure class="media-carousel__slide" id="hsp-media-1" style="max-width:640px; margin:0 auto;">
+      <img src="{{ '/images/hsp-collab1.jpeg' | relative_url }}" alt="Sessione di storytelling collaborativo con iCub" loading="lazy" style="width:100%; max-width:640px; max-height:360px; object-fit:cover; display:block; margin:0 auto;">
     </figure>
-    <figure class="media-carousel__slide" id="hsp-media-2">
-      <img src="{{ '/images/hsp-collab1.svg' | relative_url }}" alt="Schema della pipeline per lo storytelling multimodale" loading="lazy">
+    <figure class="media-carousel__slide" id="hsp-media-2" style="max-width:640px; margin:0 auto;">
+      <img src="{{ '/images/hsp-collab1.svg' | relative_url }}" alt="Schema della pipeline per lo storytelling multimodale" loading="lazy" style="width:100%; max-width:640px; max-height:360px; object-fit:contain; display:block; margin:0 auto;">
     </figure>
-    <figure class="media-carousel__slide" id="hsp-media-3">
-      <video controls preload="metadata" aria-label="Video dimostrativo dello storytelling multimodale">
+    <figure class="media-carousel__slide" id="hsp-media-3" style="max-width:640px; margin:0 auto;">
+      <video controls preload="metadata" aria-label="Video dimostrativo dello storytelling multimodale" style="width:100%; max-width:640px; max-height:360px; display:block; margin:0 auto;">
         <source src="{{ '/images/hsp-collab2.mp4' | relative_url }}" type="video/mp4">
         Il tuo browser non supporta la riproduzione del video.
       </video>
